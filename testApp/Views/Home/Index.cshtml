@@ -1,0 +1,56 @@
+﻿@model IEnumerable<FruitDTO>
+    <h2>Fruits Market</h2>
+    <p>
+        @Html.ActionLink("Fruit freshness", "ShowExpired")
+    </p>
+    <p>
+        @Html.ActionLink("Reverse list", "GetReversedList")
+    </p>
+    <table class="table table-striped">
+        <tr class="row">
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.InStock)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.DeliveredDate)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.DaysPassed)
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr class="row">
+                <td class="col-md-2">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="col-md-2">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td class="col-md-2">
+                    @Html.DisplayFor(modelItem => item.InStock)
+                </td>
+                <td class="col-md-2">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td class="col-md-2">
+                    @Html.DisplayFor(modelItem => item.DeliveredDate)
+                </td>
+                <td class="col-md-2">
+                    @Html.DisplayFor(modelItem => item.DaysPassed)
+                </td>
+                <td class="col-md-2">
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </table>
+    <p>
+        @Html.ActionLink("Create New Fruit", "Create")
+    </p>
