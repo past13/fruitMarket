@@ -21,6 +21,7 @@ namespace testApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IFruitService, FruitService>();
+
             services.AddMvc();
         }
 

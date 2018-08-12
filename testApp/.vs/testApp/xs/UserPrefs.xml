@@ -1,19 +1,39 @@
-﻿<Properties StartupConfiguration="{8B9E2917-C5C1-4262-B0B8-68F966B12A13}|Default">
+﻿<Properties StartupConfiguration="{7B540D76-91D2-4B10-B869-9E4FEFC43F2D}|Unit Tests">
   <MonoDevelop.Ide.Workbench ActiveDocument="Service/FruitService.cs">
     <Files>
-      <File FileName="Views/Home/Index.cshtml" Line="57" Column="1" />
-      <File FileName="Models/FruitDTO.cs" Line="9" Column="10" />
-      <File FileName="Controllers/HomeController.cs" Line="39" Column="1" />
-      <File FileName="Service/FruitService.cs" Line="10" Column="38" />
+      <File FileName="Controllers/HomeController.cs" Line="21" Column="58" />
+      <File FileName="testApp.Test/UnitTest1.cs" Line="39" Column="44" />
+      <File FileName="Service/FruitService.cs" Line="10" Column="37" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testApp" expanded="True">
+            <Node name="testApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="FruitService.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="testApp.Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="testApp" expanded="True">
+            <Node name="testApp.Test" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/past7/Code/testApp/Controllers/HomeController.cs" relfile="Controllers/HomeController.cs" line="39" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.testApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.testApp.Test PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

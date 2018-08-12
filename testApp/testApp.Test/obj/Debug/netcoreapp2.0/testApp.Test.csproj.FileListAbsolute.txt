@@ -1,0 +1,16 @@
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.Test.deps.json
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.Test.runtimeconfig.json
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.Test.runtimeconfig.dev.json
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.Test.dll
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.Test.pdb
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.dll
+/Users/past7/Code/testApp/testApp.Test/bin/Debug/netcoreapp2.0/testApp.pdb
+/Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.csprojResolveAssemblyReference.cache
+/Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.csproj.CoreCompileInputs.cache
+/Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.AssemblyInfoInputs.cache
+/Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.AssemblyInfo.cs
+/Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.dll
+/Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.pdb
