@@ -7550,11 +7550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/past7/Code/testApp/testApp.Test/testApp.Test.csproj",
+      "projectUniqueName": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/testApp.Test.csproj",
       "projectName": "testApp.Test",
-      "projectPath": "/Users/past7/Code/testApp/testApp.Test/testApp.Test.csproj",
+      "projectPath": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/testApp.Test.csproj",
       "packagesPath": "/Users/past7/.nuget/packages/",
-      "outputPath": "/Users/past7/Code/testApp/testApp.Test/obj",
+      "outputPath": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -7571,8 +7571,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/past7/Code/testApp/testApp.csproj": {
-              "projectPath": "/Users/past7/Code/testApp/testApp.csproj"
+            "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.csproj": {
+              "projectPath": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.csproj"
             }
           }
         }
@@ -7586,12 +7586,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "15.3.0-preview-20170628-02"
@@ -7615,6 +7609,12 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": {
             "target": "Package",
             "version": "2.1.1"
+          },
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.0",
+            "autoReferenced": true
           }
         },
         "imports": [

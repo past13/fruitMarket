@@ -1,4 +1,6 @@
 ﻿using System;
+using testApp.Service;
+
 namespace testApp.Models
 {
     public class Fruit

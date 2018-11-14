@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using testApp.Models;
+using static testApp.Service.FruitService;
 
 namespace testApp.Service.Interface
 {
@@ -13,6 +14,8 @@ namespace testApp.Service.Interface
         List<FruitDTO> GetExpiredFruits(DateTime date);
 
         List<FruitDTO> GetFruitList();
+
+        FruitDTO GetFruit(int id);
 
         List<FruitDTO> GetReversedList();
     }

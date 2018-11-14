@@ -8,3 +8,14 @@
 /Users/past7/Code/testApp/obj/Debug/netcoreapp2.0/testApp.AssemblyInfo.cs
 /Users/past7/Code/testApp/obj/Debug/netcoreapp2.0/testApp.dll
 /Users/past7/Code/testApp/obj/Debug/netcoreapp2.0/testApp.pdb
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj/Debug/netcoreapp2.0/testApp.csproj.CoreCompileInputs.cache
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj/Debug/netcoreapp2.0/testApp.AssemblyInfoInputs.cache
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj/Debug/netcoreapp2.0/testApp.AssemblyInfo.cs
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/bin/Debug/netcoreapp2.0/testApp.deps.json
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/bin/Debug/netcoreapp2.0/testApp.runtimeconfig.json
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/bin/Debug/netcoreapp2.0/testApp.runtimeconfig.dev.json
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/bin/Debug/netcoreapp2.0/testApp.dll
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/bin/Debug/netcoreapp2.0/testApp.pdb
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj/Debug/netcoreapp2.0/testApp.csprojAssemblyReference.cache
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj/Debug/netcoreapp2.0/testApp.dll
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj/Debug/netcoreapp2.0/testApp.pdb

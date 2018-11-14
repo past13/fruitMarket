@@ -14,3 +14,7 @@
 /Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.AssemblyInfo.cs
 /Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.dll
 /Users/past7/Code/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.pdb
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.csprojAssemblyReference.cache
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.csproj.CoreCompileInputs.cache
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.AssemblyInfoInputs.cache
+/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.Test/obj/Debug/netcoreapp2.0/testApp.Test.AssemblyInfo.cs

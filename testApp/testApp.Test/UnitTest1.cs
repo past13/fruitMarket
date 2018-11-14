@@ -75,7 +75,7 @@ namespace testApp.Test
 
             var controller = new HomeController(mockInterface.Object);
 
-            var result = controller.Delete(1);
+            var result = controller.DeleteFruit(1);
 
             var viewResult = Assert.IsType<ViewResult>(result);
 

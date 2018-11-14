@@ -1,0 +1,40 @@
+﻿@model FruitDTO
+
+<h2>Fruit</h2>
+
+<table class="table table-striped">
+    <tr class="row">
+        <th class="col-md-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayNameFor(model => model.InStock)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayNameFor(model => model.DeliveredDate)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayNameFor(model => model.DaysPassed)
+        </th>
+    </tr>
+    <tr class="row">
+        <th class="col-md-2">
+            @Html.DisplayFor(model => model.Name)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayFor(model => model.Price)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayFor(model => model.InStock)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayFor(model => model.DeliveredDate)
+        </th>
+        <th class="col-md-2">
+            @Html.DisplayFor(model => model.DaysPassed)
+        </th>
+    </tr>
+</table>

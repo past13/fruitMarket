@@ -12657,11 +12657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/past7/Code/testApp/testApp.csproj",
+      "projectUniqueName": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.csproj",
       "projectName": "testApp",
-      "projectPath": "/Users/past7/Code/testApp/testApp.csproj",
+      "projectPath": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/testApp.csproj",
       "packagesPath": "/Users/past7/.nuget/packages/",
-      "outputPath": "/Users/past7/Code/testApp/obj",
+      "outputPath": "/Users/past7/Desktop/SandBox/fruitMarket/testApp/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12689,12 +12689,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "suppressParent": "All",
             "target": "Package",
@@ -12703,6 +12697,12 @@
           "bootstrap": {
             "target": "Package",
             "version": "4.1.3"
+          },
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.0",
+            "autoReferenced": true
           }
         },
         "imports": [

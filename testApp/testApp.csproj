@@ -24,6 +24,7 @@
     <Compile Remove="testApp.Test\UnitTest1.cs" />
     <Compile Remove="testApp.Test\obj\Debug\netcoreapp2.0\testApp.Test.Program.cs" />
     <Compile Remove="testApp.Test\obj\Debug\netcoreapp2.0\testApp.Test.AssemblyInfo.cs" />
+    <Compile Remove="Service\BookTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="testApp.Test\bin\Debug\netcoreapp2.0\testApp.Test.dll" />
@@ -40,5 +41,8 @@
     <None Remove="testApp.Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll" />
     <None Remove="testApp.Test\obj\Debug\netcoreapp2.0\testApp.Test.csproj.FileListAbsolute.txt" />
     <None Remove="testApp.Test\bin\Debug\netcoreapp2.0\testApp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\GetFruit.cshtml" />
   </ItemGroup>
 </Project>

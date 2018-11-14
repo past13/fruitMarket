@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using testApp.Models;
@@ -9,7 +8,7 @@ namespace testApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IFruitService _service;
+        readonly IFruitService _service;
 
         public HomeController(IFruitService service)
         {
@@ -18,14 +17,17 @@ namespace testApp.Controllers
 
         public IActionResult Index()
         {
-            IList<FruitDTO> model = _service.GetFruitList();
-            return View(model);
+            return View(_service.GetFruitList());
         }
 
-        public IActionResult Delete(int Id)
+        public IActionResult GetFruit(int Id)
         {
-            var result = _service.Delete(Id);
-            return View("Index", result);
+            return View(_service.GetFruit(Id));
+        }
+
+        public IActionResult DeleteFruit(int Id)
+        {
+            return View("Index", _service.Delete(Id));
         }
 
         [HttpGet]
@@ -37,24 +39,19 @@ namespace testApp.Controllers
         [HttpPost]
         public IActionResult Create(Fruit fruit)
         {
-            var result = _service.Add(fruit);
-            return View("Index", result);
+            return View("Index", _service.Add(fruit));
         }
 
         [HttpGet]
         public IActionResult ShowExpired()
         {
-            var dateNow = DateTime.Now.Date;
-            var result = _service.GetExpiredFruits(dateNow);
-            return View("Index", result);
+            return View("Index", _service.GetExpiredFruits(DateTime.Now.Date));
         }
 
         [HttpGet]
         public IActionResult GetReversedList()
         {
-            var dateNow = DateTime.Now.Date;
-            var result = _service.GetReversedList();
-            return View("Index", result);
+            return View("Index", _service.GetReversedList());
         }
 
         public IActionResult About()

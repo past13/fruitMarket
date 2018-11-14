@@ -54,10 +54,10 @@ namespace calculator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!" + Number(2, 21));
-            findIt(2, 21);
+            Console.WriteLine("Hello World!" + findIt(2, 21));
         }
     }
 }
 
 //10*20+100+
-//  10*300+1000
+//10*300+1000

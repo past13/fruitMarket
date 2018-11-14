@@ -53,6 +53,11 @@ namespace testApp.Service
             return fruitList;
         }
 
+        public FruitDTO GetFruit(int id)
+        {
+            return fruitList.Find(x => x.Id == id);
+        }
+
         public List<FruitDTO> GetFruitList()
         {
             return fruitList;

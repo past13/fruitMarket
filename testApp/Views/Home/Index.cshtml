@@ -26,29 +26,29 @@
         </tr>
         @foreach (var item in Model)
         {
-            <tr class="row">
-                <td class="col-md-2">
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td class="col-md-2">
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td class="col-md-2">
-                    @Html.DisplayFor(modelItem => item.InStock)
-                </td>
-                <td class="col-md-2">
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td class="col-md-2">
-                    @Html.DisplayFor(modelItem => item.DeliveredDate)
-                </td>
-                <td class="col-md-2">
-                    @Html.DisplayFor(modelItem => item.DaysPassed)
-                </td>
-                <td class="col-md-2">
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                </td>
-            </tr>
+        <tr class="row">
+            <td class="col-md-2">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="col-md-2">
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td class="col-md-2">
+                @Html.DisplayFor(modelItem => item.InStock)
+            </td>
+            <td class="col-md-2">
+                @Html.DisplayFor(modelItem => item.DeliveredDate)
+            </td>
+            <td class="col-md-2">
+                @Html.DisplayFor(modelItem => item.DaysPassed)
+            </td>
+            <td class="col-md-2">
+                @Html.ActionLink("Edit", "GetFruit", new { id = item.Id })
+            </td>
+            <td class="col-md-2">
+                @Html.ActionLink("Delete", "DeleteFruit", new { id = item.Id })
+            </td>
+        </tr>
         }
     </table>
     <p>
